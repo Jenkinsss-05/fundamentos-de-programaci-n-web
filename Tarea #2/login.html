@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/codigo2.css">
+    <link rel="icon" href="favicon.png">
+    <title>Login-page</title>
+</head>
+<body style="background-image: url('imagenes/login.png'); background-size: cover; background-position: center; font-family: 'Arial', sans-serif; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh;">
+
+    <div class="container">
+        <h1>Iniciar Sesión</h1>
+        <form id="loginForm">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" required>
+            <button type="button" id="loginButton">Ingresar</button>
+            <p id="message" class="error-message"></p>
+        </form>
+        <a href="index.html" class="boton">Volver a la página de inicio</a>
+    </div>
+    <script src="javascript/codigo2.js"></script>
+</body>
+</html>

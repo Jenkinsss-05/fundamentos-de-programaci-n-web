@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.payment-label img {
+    width: 20px; 
+    height: auto;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

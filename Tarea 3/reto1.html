@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reto1.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="login-form">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Clave:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="remember">Remember me</label>
+            <input type="checkbox" id="remember" name="remember">
+            <button type="submit">Ingresar</button>
+        </form>
+        <div id="error-message" class="hidden">Usuario o clave incorrectos. Inténtelo de nuevo.</div>
+    </div>
+    <script src="js/reto1.js"></script>
+</body>
+</html>

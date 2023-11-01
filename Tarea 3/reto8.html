@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/reto8.css">
+</head>
+<body>
+    <h1>Iniciar Sesión</h1>
+
+    <div id="universitySelection">
+        <label for="university">Selecciona una universidad de Costa Rica:</label>
+        <select id="university" name="university">
+            <option value="ucenfotec">UCENFOTEC</option>
+            <option value="u1">Universidad De costa rica</option>
+            <option value="u2">Universidad Catro carazo</option>
+            <option value="u2">Universidad Nacional</option>
+            <option value="u2">Universidad Latina</option>
+            <option value="u2">Universidad EARTH</option>
+            <option value="u2">Universidad creativa</option>
+            <option value="u2">Universidad TEC</option>
+
+        </select><br><br>
+
+        <button type="button" id="selectUniversityButton">Seleccionar Universidad</button>
+    </div>
+
+    <div id="loginForm" style="display: none;">
+        <form id="loginFormInner">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="password">Clave:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <button type="button" id="loginButton">Ingresar</button>
+        </form>
+    </div>
+
+    <script src="js/reto8.js"></script>
+</body>
+</html>

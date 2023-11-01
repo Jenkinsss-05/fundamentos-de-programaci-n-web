@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(#ea3030, #e47124);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+}
+
+#image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#description-container {
+    margin: 20px;
+}
+
+#description {
+    display: none;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}

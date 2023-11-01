@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>reto9</title>
+    <link rel="stylesheet" type="text/css" href="css/reto9.css">
+</head>
+<body>
+    <h1>Finalizar Compra</h1>
+
+    <form id="paymentForm">
+        <label for="paymentMethod">Seleccione su método de pago:</label><br>
+        <input type="radio" id="visa" name="paymentMethod" value="visa">
+        <label for="visa" class="payment-label"><img src="imagenes/visa.png.png" alt="Visa"></label><br>
+        <input type="radio" id="mastercard" name="paymentMethod" value="mastercard">
+        <label for="mastercard" class="payment-label"><img src="imagenes/mastercard.png.png" alt="Mastercard"></label><br>
+        <input type="radio" id="amex" name="paymentMethod" value="amex">
+        <label for="amex" class="payment-label"><img src="imagenes/american-express.png" alt="American Express"></label><br>
+        <input type="radio" id="paypal" name="paymentMethod" value="paypal">
+        <label for="paypal" class="payment-label"><img src="imagenes/paypal.png" alt="PayPal"></label><br><br>
+
+        <button type="button" id="checkoutButton">Finalizar Compra</button>
+    </form>
+
+    <script src="js/reto9.js"></script>
+</body>
+</html>

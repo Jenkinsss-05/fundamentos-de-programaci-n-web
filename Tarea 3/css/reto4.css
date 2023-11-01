@@ -1,0 +1,21 @@
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#image-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#image-and-description {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin-top: 10px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/reto2.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Factura Digital</h1>
+
+    <form id="facturaForm">
+        <label for="nombreCliente">Nombre del Cliente:</label>
+        <input type="text" id="nombreCliente" required><br>
+
+        <label for="articulo">Artículo Comprado:</label>
+        <input type="text" id="articulo" required><br>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" required><br>
+
+        <label for="precio">Precio Unitario:</label>
+        <input type="number" id="precio" required><br>
+
+        <button type="button" onclick="agregarItem()">Facturar</button>
+    </form>
+
+    <table id="facturaTable">
+        <thead>
+            <tr>
+                <th>Artículo</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div>
+        <p>Subtotal: <span id="subtotal">0.00</span></p>
+        <p>IVA (13%): <span id="iva">0.00</span></p>
+        <p>Servicio (5%): <span id="servicio">0.00</span></p>
+        <p>Total a Pagar: <span id="total">0.00</span></p>
+    </div>
+
+    <script src="js/reto2.js"></script>
+</body>
+</html>
